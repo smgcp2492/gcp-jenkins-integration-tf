@@ -10,7 +10,7 @@ terraform {
 provider "google" {
   credentials = file("SA-Key.json")
 
-  project = "learn-gcp"
+  project = "gcp-learn"
   region  = "us-central1"
   zone    = "us-central1-c"
 }
