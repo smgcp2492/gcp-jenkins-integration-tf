@@ -8,7 +8,6 @@ terraform {
 }
 
 provider "google" {
-  credentials = file("SA-Key.json")
 
   project = "gcp-learn-398822"
   region  = "us-central1"
